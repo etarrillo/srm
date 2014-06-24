@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'flexoblack';
+    src: url('../font/durotype_-_flexo-black-webfont.eot');
+    src: url('../font/durotype_-_flexo-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-black-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-black-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-black-webfont.svg#flexoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoblack_italic';
+    src: url('../font/durotype_-_flexo-blackit-webfont.eot');
+    src: url('../font/durotype_-_flexo-blackit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-blackit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-blackit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-blackit-webfont.svg#flexoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexobold';
+    src: url('../font/durotype_-_flexo-bold-webfont.eot');
+    src: url('../font/durotype_-_flexo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-bold-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-bold-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-bold-webfont.svg#flexobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexobold_italic';
+    src: url('../font/durotype_-_flexo-boldit-webfont.eot');
+    src: url('../font/durotype_-_flexo-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-boldit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-boldit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-boldit-webfont.svg#flexobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexodemi';
+    src: url('../font/durotype_-_flexo-demi-webfont.eot');
+    src: url('../font/durotype_-_flexo-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-demi-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-demi-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-demi-webfont.svg#flexodemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexodemi_italic';
+    src: url('../font/durotype_-_flexo-demiit-webfont.eot');
+    src: url('../font/durotype_-_flexo-demiit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-demiit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-demiit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-demiit-webfont.svg#flexodemi_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoheavy';
+    src: url('../font/durotype_-_flexo-heavy-webfont.eot');
+    src: url('../font/durotype_-_flexo-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-heavy-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-heavy-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-heavy-webfont.svg#flexoheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoheavy_italic';
+    src: url('../font/durotype_-_flexo-heavyit-webfont.eot');
+    src: url('../font/durotype_-_flexo-heavyit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-heavyit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-heavyit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-heavyit-webfont.svg#flexoheavy_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoitalic';
+    src: url('../font/durotype_-_flexo-it-webfont.eot');
+    src: url('../font/durotype_-_flexo-it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-it-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-it-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-it-webfont.svg#flexoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoheavy';
+    src: url('../font/durotype_-_flexo-heavy-webfont.eot');
+    src: url('../font/durotype_-_flexo-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-heavy-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-heavy-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-heavy-webfont.svg#flexoheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoheavy_italic';
+    src: url('../font/durotype_-_flexo-heavyit-webfont.eot');
+    src: url('../font/durotype_-_flexo-heavyit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-heavyit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-heavyit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-heavyit-webfont.svg#flexoheavy_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoitalic';
+    src: url('../font/durotype_-_flexo-it-webfont.eot');
+    src: url('../font/durotype_-_flexo-it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-it-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-it-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-it-webfont.svg#flexoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexolight';
+    src: url('../font/durotype_-_flexo-light-webfont.eot');
+    src: url('../font/durotype_-_flexo-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-light-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-light-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-light-webfont.svg#flexolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexolight_italic';
+    src: url('../font/durotype_-_flexo-lightit-webfont.eot');
+    src: url('../font/durotype_-_flexo-lightit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-lightit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-lightit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-lightit-webfont.svg#flexolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexomedium';
+    src: url('../font/durotype_-_flexo-medium-webfont.eot');
+    src: url('../font/durotype_-_flexo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-medium-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-medium-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-medium-webfont.svg#flexomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexomedium_italic';
+    src: url('../font/durotype_-_flexo-mediumit-webfont.eot');
+    src: url('../font/durotype_-_flexo-mediumit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-mediumit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-mediumit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-mediumit-webfont.svg#flexomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexoregular';
+    src: url('../font/durotype_-_flexo-regular-webfont.eot');
+    src: url('../font/durotype_-_flexo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-regular-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-regular-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-regular-webfont.svg#flexoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexothin';
+    src: url('../font/durotype_-_flexo-thin-webfont.eot');
+    src: url('../font/durotype_-_flexo-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-thin-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-thin-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-thin-webfont.svg#flexothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'flexothin_italic';
+    src: url('../font/durotype_-_flexo-thinit-webfont.eot');
+    src: url('../font/durotype_-_flexo-thinit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/durotype_-_flexo-thinit-webfont.woff') format('woff'),
+         url('../font/durotype_-_flexo-thinit-webfont.ttf') format('truetype'),
+         url('../font/durotype_-_flexo-thinit-webfont.svg#flexothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

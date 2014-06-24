@@ -1,0 +1,57 @@
+form(method="post")
+	fieldset
+		h3
+			span.icon-skyblue Filtros de Estructura Interna
+
+		.box-message.info
+			span El siguiente filtro podría tardar en actualizarse unos segundos
+
+		.stripe
+			label División
+			select(name="nombre")
+				each item in ['COMPAÑIA CREDIBOLSA','COMPAÑIA CREDIFONDO','CORREVAL FIDUCIARIA','DIRECTORIO','DIVISION BANCA EMPRESARIAL','DIVISION COMERCIAL','DIVISION DE GESTION Y DESARROLLO HUMANO','DIVISION DE SISTEMAS','DIVISION GESTION DE PATRIMONIOS','DIVISION MERCADO DE CAPITALES-CB','FINANZAS CORPORATIVAS','GCIA CENT DE BCA MINOR Y GESTION DE PATR','GCIA CENTRAL OPERACIONES SISTEMAS Y ADM','GCIA DE DIVIS PLANEAMIENTO Y CONTROL FIN','GCIA DE DIVISION DE ADMINISTRAC DE RIESG','GCIA DE DIVISION DE CONTABILIDAD GENERAL','GCIA DE DIVISION DE GESTION Y DESARR HUM','GCIA DE DIVISION LEGAL','GER.CENTRAL DE BANCA MAYORISTA','GER.CTRAL PLANEAMIENTO Y FINANZAS','GERENCIA CENTRAL DE RIESGOS','GERENCIA DE DIVISION ASUNTOS CORPORATIVO','GERENCIA DE DIVISION BANCA DE INVERSION','GERENCIA DE DIVISION BANCA EMPRESARIAL','GERENCIA DE DIVISION CORPORAT E INTERNAC','GERENCIA DE DIVISION CUMPLIMIENTO CORPOR','GERENCIA DE DIVISION DE AUDITORIA','GERENCIA DE DIVISION DE CREDITOS','GERENCIA DE DIVISION GESTION DE PATRIMON','GERENCIA DE DIVISIÓN CONSUMO','GERENCIA DE DIVISIÓN EFICIENCIA','GERENCIA DE DIVISIÓN RIESGO BANCA MINORI','GERENCIA DIVISION BANCA PERSONAS','GERENCIA DIVISION DE TESORERIA','GERENCIA GENERAL','GERENCIA GENERAL ADJUNTA','GERENCIA PROYECTOS CORPORATIVOS','GESTION DE ACTIVOS','GESTION DE RIESGOS','GESTIÓN DE INVERSIONES','MERCADO DE CAPITALES','OPERACIONES','PLANEAMIENTO Y SOPORTE DE NEGOCIOS','RESEARCH','SECRETARIA GENERAL','VP COMERCIAL','VP ESTRATEGIA COMERCIAL']
+					option= item
+		.stripe
+			label Área
+			select(name="nombre")
+				each item in ['AREA COMERCIAL LIMA 1','AREA COMERCIAL LIMA 2','AREA COMERCIAL LIMA 3','AREA COMERCIAL PROVINCIAS 1','AREA COMERCIAL PROVINCIAS 2','AREA DE PLANEAMIENTO Y DESARROL DIV. COM','AREA DE PLANEAMIENTO Y DESARROLLO COMERC','GERENCIA DE ÁREA VENTAS']
+					option= item
+		.stripe
+			label Servicio
+			select(name="nombre")
+				each item in ['AREA COMERCIAL LIMA 1','AREA LIMA 1 - REGION 01','AREA LIMA 1 - REGION 02','AREA LIMA 1 - REGION 03','AREA LIMA 1 - REGION 04','AREA LIMA 1 - REGION 05']
+					option= item
+		.stripe
+			h4 Agrupar Resultados
+			.group-input
+				label Por División
+				input(type="radio")
+			.group-input
+				label Por Área
+				input(type="radio")
+			.group-input
+				label Por Servicio
+				input(type="radio")
+
+
+	fieldset
+		h3
+			span.icon-skyblue Filtros según curso
+		.stripe
+			select
+				each item in ['Cursos Regulatorios','Escuela Líder BCP','Gerencia Central de Operaciones,Sistemas y Administración','Gerencia Central de Banca Minorista','Gerencia Central de Banca Mayorista','Fondos Mutuos','Encuesta Catálogo','Cursos Generales','Gerencia Central de Riesgos','Inducción','Cursos para otras unidades','Biblioteca Virtual']
+					option= item
+		.stripe
+			h4 Cursos entre rango de fechas
+			.stripe
+				.group-input
+					label Comienzo del curso
+					input(type='text')
+				.group-input
+					label Fin del curso
+					input(type='text')
+
+	fieldset
+		.stripe
+			input(type='submit', value="filtrar")
+

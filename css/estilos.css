@@ -1,0 +1,235 @@
+.aviso {
+  background-color: #fefccb;
+  border: 1px solid #e5db55;
+  color: #878314;
+  background-image: url("../img/box-warning.jpg");
+}
+.info {
+  background-color: #dbecff;
+  border: 1px solid #9fc7f5;
+  color: #2850c1;
+  background-image: url("../img/box-info.jpg");
+}
+.error {
+  background-color: #ffd2d3;
+  border: 1px solid #df8f90;
+  color: #871414;
+  background-image: url("../img/box-error.jpg");
+}
+.exito {
+  background-color: #d4ffcd;
+  border: 1px solid #9adf8f;
+  color: #319021;
+  background-image: url("../img/box-success.jpg");
+}
+.box-message {
+  padding: 15px;
+  width: 500px;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+.exito,
+.aviso,
+.info,
+.error {
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  background-position: 20px center;
+}
+body {
+  background-color: #fff;
+  background-image: url("../img/bg_general.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px 230px;
+  font-family: 'flexolight';
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 17px;
+}
+h3 {
+  font-size: 15px;
+}
+h4 {
+  font-size: 14px;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.icon-orange {
+  background-image: url("../img/icon-orange.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 25px;
+}
+.icon-skyblue {
+  background-image: url("../img/icon-skyblue.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 25px;
+}
+.stripe {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.white {
+  background-color: rgba(255,255,255,0.5);
+}
+.strong-txt {
+  font-weight: bold;
+}
+.side-left {
+  float: left;
+}
+.side-right {
+  float: right;
+}
+.contenedor {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  padding: 5px;
+}
+#side-up {
+  background-color: #004785;
+  width: 99%;
+  margin-bottom: 10px;
+  padding: 0.5%;
+}
+#user-data,
+a {
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+#user-data {
+  margin: 0 10px 0 0;
+}
+#user-data p {
+  margin: 7px 0;
+}
+#user-data a {
+  display: block;
+  margin: 4px 0;
+  text-decoration: none;
+color
+}
+#user-data a:hover {
+  text-decoration: underline;
+}
+#user-pic img {
+  border: 5px solid #ededed;
+}
+nav ul {
+  display: block;
+  text-align: right;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 7px 10px;
+  background-color: #ec8312;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+nav ul li a:hover {
+  background-color: #004785;
+}
+.contenedor #box-title h1 {
+  color: #004785;
+}
+.contenedor #box-title h2 {
+  background-color: #ec8312;
+  color: #fff;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding: 7px;
+}
+.contenedor #box-title h3 {
+  border-bottom: 1px solid #ec8312;
+  border-left: 1px solid #ec8312;
+  border-right: 1px solid #ec8312;
+  color: #666;
+  font-size: 13px;
+  margin: 0;
+  color: #09c;
+  padding: 5px;
+}
+.contenedor form fieldset {
+  border: none;
+}
+.contenedor form h3 {
+  margin: 0;
+  color: #09c;
+  padding: 5px;
+  font-weight: normal;
+}
+.contenedor form h4,
+.contenedor form label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #004785;
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contenedor form select {
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 600px;
+  padding: 5px;
+}
+.contenedor form input[type="submit"] {
+  background-color: #ec8312;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.contenedor form input[type="submit"]:hover {
+  background-color: #004785;
+}
+.contenedor form .group-input {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.contenedor form .group-input label {
+  width: 100px;
+  color: #666;
+}
+.contenedor form .group-input input[type="text"] {
+  width: 170px;
+}
+.contenedor form .group-input input[type="radio"] {
+  width: 30px;
+}
+footer p {
+  color: #666;
+  font-size: 13px;
+}
