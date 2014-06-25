@@ -1,0 +1,20 @@
+.block
+	h2.txt-skyblue-bcp
+		span.icon-skyblue Usuarios Encontrados
+
+	ul#paginacion
+		li
+			a(href="#") << Inicio
+
+		each pager in ['1','2','3','4','5','6','7','8','9','10']
+			li
+				a(href="#")= pager
+		li
+			a(href="#") Último>>
+			
+	ol
+		each item in ['MARITZA CHAVEZ VALDEZ','MIGUEL ANGEL HERRERA GOICOCHEA','JOSE LUIS PONCE DE LEON GARBOZA','CARLOS GONZALEZ CORRALES','JORGE MONSANTE BURGA','JUANA LUCY MILAGROS COSSIO CAVERO','RITA PATRICIA QUEVEDO VELA','XAVIER ALBERTO GUTIERREZ CORAL','JUAN LUIS ALBERTO LAZARTE ELGUERA','LUCIA BARRANTES DEL RIO']
+			li
+				span
+					a.icon-mail(href='#')
+				a(href="#")= item
