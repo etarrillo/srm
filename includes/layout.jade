@@ -6,17 +6,17 @@ html
 		link(rel='stylesheet', href='css/normalize.css')
 		link(rel='stylesheet', href='css/font.css')
 		link(rel='stylesheet', href='css/estilos.css')
-		
-		script(src='js/script.js')
 
-		script(src='js/html5shiv.js')
+		script(src="js/html5shiv.js")
+		<!--[if lt IE 9]>
+		link(rel='stylesheet', href='css/ie8.css')
+		<![endif]-->
 
-		//if lt IE 8
-			script(src="js/html5shiv.js")
-		
-		//- script(src='js/script.js')
+		<!--[if lt IE 8]>
+		link(rel='stylesheet', href='css/ie8.css')
+		<![endif]-->
 	body
 		include header.jade
 		include menu.jade
 		block content
-		include footer.jade
+		include footer.jade 

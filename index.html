@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/script.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <!--if lt IE 8script(src="js/html5shiv.js")
-    -->
+    <script src="js/html5shiv.js"></script><!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie8.css"><![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/ie8.css"><![endif]-->
   </head>
   <body>
     <header class="clearfix">
       <div class="contenedor">
         <div id="side-up" class="clearfix"><a href="#"><img src="img/logo-bcp.jpg" class="side-right"></a></div>
-        <header>
+        <div id="cabecera">
           <div class="side-left"><img src="img/reportes-avanzados.png"></div>
           <div class="side-right">
             <div id="user-data" class="side-left">
@@ -24,7 +24,7 @@
             </div>
             <div id="user-pic" class="side-right"><a href="#"><img src="img/f1.png"></a></div>
           </div>
-        </header>
+        </div>
       </div>
     </header>
     <nav>
@@ -41,7 +41,7 @@
       <div id="box-title">
         <h1><span class="icon-orange">Reportes de avance</span></h1>
         <h2>Reportes de avance</h2>
-        <h3><span class="icon-orange">Filtros avanzados</span></h3>
+        <h3 class="txt-skyblue-bcp"><span class="icon-orange">Filtros avanzados</span></h3>
       </div>
       <form method="post">
         <fieldset>

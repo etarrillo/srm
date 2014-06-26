@@ -11,10 +11,11 @@
 				a(href="#")= pager
 		li
 			a(href="#") Último>>
-			
+
 	ol
 		each item in ['MARITZA CHAVEZ VALDEZ','MIGUEL ANGEL HERRERA GOICOCHEA','JOSE LUIS PONCE DE LEON GARBOZA','CARLOS GONZALEZ CORRALES','JORGE MONSANTE BURGA','JUANA LUCY MILAGROS COSSIO CAVERO','RITA PATRICIA QUEVEDO VELA','XAVIER ALBERTO GUTIERREZ CORAL','JUAN LUIS ALBERTO LAZARTE ELGUERA','LUCIA BARRANTES DEL RIO']
 			li
-				span
-					a.icon-mail(href='#')
+				a(href="mailto:#").mail
+					span.icon-mail mail
+
 				a(href="#")= item

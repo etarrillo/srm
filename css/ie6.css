@@ -1,0 +1,32 @@
+body {
+  background-color: #00f !important;
+  background-image: none !important;
+}
+#user-data {
+  background-color: #f00;
+}
+.side-left img {
+  margin-right: 70px;
+}
+nav {
+  height: 25px;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  float: left;
+  margin-left: 5px;
+}
+ul#paginacion {
+  background-color: #808080;
+  width: 380px;
+  margin: 0 auto;
+  height: 30px;
+  padding: 0;
+  text-align: center;
+}
+ul#paginacion li {
+  float: left;
+  margin: 2px;
+}

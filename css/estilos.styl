@@ -102,7 +102,7 @@ h4
 .icon-mail
 	background-image url('../img/icon-mail.png')
 	background-repeat no-repeat
-	background-position center center
+	background-position 1px 1px
 	padding-left 20px
 	margin-right 5px
 .stripe
@@ -111,7 +111,7 @@ h4
 	margin-bottom 5px
 
 .white
-	background-color rgba(255,255,255,0.8)
+	background-color #ffffff
 	
 .strong-txt
 	font-weight bold
@@ -124,10 +124,9 @@ h4
 
 .contenedor
 	margin 0 auto
-	width 100%
-	max-width 800px
+	width 800px
 	height 100%
-	padding 5px
+	padding 0 5px 5px 5px
 
 // Cabecera
 #side-up
@@ -135,7 +134,9 @@ h4
 	width 99%
 	margin-bottom 10px
 	padding 0.5%
-
+#cabecera
+	height 120px
+	
 #user-data,
 a
 	font-size 14px
@@ -296,8 +297,9 @@ ol
 		padding 5px
 		&:hover
 			background-color $blanco-bcp
+		a.mail
+			font-size 10px
 		a
-			display block
 			color $blue-bcp
 			font-size 13px
 			text-decoration none
