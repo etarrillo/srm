@@ -1,12 +1,18 @@
-body {
-  background-color: #808000 !important;
-  background-image: none !important;
-}
 .contenedor {
   widht: 800px;
 }
-#user-data {
-  background-color: #008000;
+.side-left img {
+  margin-right: 70px;
+}
+nav {
+  height: 25px;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  float: left;
+  margin-left: 5px;
 }
 ul#paginacion {
   background-color: #808080;
