@@ -2,25 +2,25 @@
   background-color: #fefccb;
   border: 1px solid #e5db55;
   color: #878314;
-  background-image: url("../img/box-warning.jpg");
+  background-image: url("../images/box-warning.jpg");
 }
 .info {
   background-color: #dbecff;
   border: 1px solid #9fc7f5;
   color: #2850c1;
-  background-image: url("../img/box-info.jpg");
+  background-image: url("../images/box-info.jpg");
 }
 .error {
   background-color: #ffd2d3;
   border: 1px solid #df8f90;
   color: #871414;
-  background-image: url("../img/box-error.jpg");
+  background-image: url("../images/box-error.jpg");
 }
 .exito {
   background-color: #d4ffcd;
   border: 1px solid #9adf8f;
   color: #319021;
-  background-image: url("../img/box-success.jpg");
+  background-image: url("../images/box-success.jpg");
 }
 .box-message {
   padding: 15px;
@@ -38,7 +38,7 @@
 }
 body {
   background-color: #fff;
-  background-image: url("../img/bg_general.jpg");
+  background-image: url("../images/bg_general.jpg");
   background-repeat: no-repeat;
   background-position: 0px 230px;
   font-family: 'flexolight';
@@ -125,19 +125,19 @@ h4 {
   text-decoration: none;
 }
 .icon-orange {
-  background-image: url("../img/icon-orange.png");
+  background-image: url("../images/icon-orange.png");
   background-repeat: no-repeat;
   background-position: 10px center;
   padding-left: 25px;
 }
 .icon-skyblue {
-  background-image: url("../img/icon-skyblue.png");
+  background-image: url("../images/icon-skyblue.png");
   background-repeat: no-repeat;
   background-position: 10px center;
   padding-left: 25px;
 }
 .icon-mail {
-  background-image: url("../img/icon-mail.png");
+  background-image: url("../images/icon-mail.png");
   background-repeat: no-repeat;
   background-position: 1px 1px;
   padding-left: 20px;
