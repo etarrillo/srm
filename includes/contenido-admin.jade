@@ -1,0 +1,53 @@
+#content-admin
+	section
+		form
+			fieldset
+				h3 Subir Plantilla
+				.box-message.error
+					span Johnny otro día sal temprano para reservar un restaurante selvático
+
+				.stripe
+					label Cursos
+					select
+						each opcion in ['Campus virtual bcp','Prevención de lavado de activos y del financiamiento del terrorismo - marzo 2013','Ley de transparencia - febrero a marzo 2013','Selección por competencias','Gestión de equipos','Gestión de las compensaciones','Gestión laboral','Créditos banca minorista','Operaciones de comercio exterior','Taller de servicio para empresas','Sistema integrado de planificación y administración de negocios (sipan)','Conociendo el área de "servicios para empresas"','Seguro de protección financiera','Credifondo sa saf - enero 2013','Curso de actualización seguro de protección financiera - enero a marzo 2013 ','Encuesta de calidad']
+								option= opcion
+				
+				.stripe
+					label Subir Plantilla
+					input(type='file')
+				
+				.stripe
+					label Usar plantilla existente
+					input(type='checkbox')
+				.stripe
+					input(type='submit')
+
+	section
+		h3 Editar Plantilla
+
+		table
+			thead
+				tr
+					th N°
+					th Curso
+					th Estado
+					th Acción
+			tbody
+				tr
+					td 1
+					td Programa para asesores de ventas y servicios
+					td Activo
+					td 
+						a(href="#") Editar
+				tr
+					td 1
+					td Programa para asesores de ventas y servicios
+					td Activo
+					td 
+						a(href="#") Editar
+				tr
+					td 1
+					td Programa para promotores de servicios - descentralizado
+					td Activo
+					td 
+						a(href="#") Editar
