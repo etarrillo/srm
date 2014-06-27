@@ -309,14 +309,40 @@ ol
 				background-color $blanco-bcp
 				color $blue-bcp
 				
+.block-title
+	h3
+		color $blanco-bcp!important
+		background-color $blue-bcp
+		border none!important
+		font-weight 600!important
 #bloque-admin
+	margin-top 20px
 	aside
+		padding 5px
 		.content-block
+			background-color #ededed
+			margin-top 5px
 			h3
-				ul
-					li
-						a
-				
+				background-color $blue-bcp
+				border none
+				color $blanco-bcp
+			ul
+				li
+					list-style none
+					a
+						display block
+						padding 5px
+						text-align left
+						text-decoration none
+						&:hover
+							text-decoration underline
+
+#content-admin
+	margin-top 20px
+	section
+		padding 5px
+	table
+		margin-top 15px
 //footer
 footer
 	p
