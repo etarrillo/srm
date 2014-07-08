@@ -9,13 +9,17 @@ nav {
 }
 nav ul {
   float: right;
+  margin: 0;
+  padding: 0;
 }
 nav ul li {
   float: left;
   margin-left: 5px;
 }
+nav ul li a {
+  font-size: 12px;
+}
 ul#paginacion {
-  background-color: #808080;
   width: 390px;
   margin: 0 auto;
   height: 30px;
@@ -24,4 +28,18 @@ ul#paginacion {
 ul#paginacion li {
   float: left;
   margin: 2px;
+}
+#submenu {
+  margin-top: 10px;
+}
+#submenu nav {
+  width: 800px;
+}
+#submenu nav ul {
+  width: 800px;
+  margin: 0;
+  padding: 0;
+}
+#submenu nav ul li a {
+  font-size: 11px;
 }
