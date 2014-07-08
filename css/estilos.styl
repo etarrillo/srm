@@ -18,7 +18,7 @@ body
 	background-color $blanco-bcp
 	background-image url('../images/bg_general.jpg')
 	background-repeat no-repeat
-	background-position 0px 230px
+	background-position 0px 255px
 	font-family 'flexolight'
 
 // from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -176,6 +176,23 @@ nav
 				&:hover
 					background-color $blue-bcp
 
+#submenu
+	margin-top 10px
+	nav
+		ul
+			text-align left
+			margin 0
+			padding 0
+			li
+				a
+					padding 5px!important
+					background-color transparent!important
+					color $blue-bcp
+					font-size 12px
+					font-weight bold
+					border-radius 0!important
+					&:hover
+						text-decoration underline
 //contenido
 .contenedor
 	#box-title
