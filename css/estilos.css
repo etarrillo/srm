@@ -145,7 +145,7 @@ h4 {
 }
 .stripe {
   display: block;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 5px;
 }
 .white {
@@ -399,10 +399,19 @@ ol li a:hover {
   display: block;
   padding: 5px;
   text-align: left;
-  text-decoration: none;
+  text-decoratiion: none;
 }
 #bloque-admin aside .content-block ul li a:hover {
   text-decoration: underline;
+}
+#leyenda h4 {
+  display: block;
+}
+#leyenda span {
+  display: block;
+  color: #666;
+  font-size: 13px;
+  margin-left: 30px;
 }
 #content-admin {
   margin-top: 20px;
