@@ -290,7 +290,8 @@ nav ul li a:hover {
   max-width: 600px;
   padding: 5px;
 }
-.contenedor form input[type="submit"] {
+.contenedor form input[type="submit"],
+.contenedor form button {
   background-color: #ec8312;
   color: #fff;
   font-size: 12px;
@@ -300,7 +301,8 @@ nav ul li a:hover {
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.contenedor form input[type="submit"]:hover {
+.contenedor form input[type="submit"]:hover,
+.contenedor form button:hover {
   background-color: #004785;
 }
 .contenedor form .group-input {
