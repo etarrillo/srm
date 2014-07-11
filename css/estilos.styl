@@ -41,6 +41,38 @@ h4
 		display table
 	&:after
 		clear both
+//SPRITES
+.sprites
+	width 16px
+	height 16px
+	display block
+	float left
+	margin-right 2px
+.sp-delete,
+.sp-download,
+.sp-edit,
+.sp-open-eye,
+.sp-close-eye,
+.sp-new,
+.sp-upload
+	background-image url('../images/sprite_reportes.png')
+	background-repeat no-repeat
+
+.sp-delete
+	background-position 0px 0px
+.sp-download
+	background-position -20px 0px
+.sp-edit
+	background-position -39px 0px
+.sp-open-eye
+	background-position -56px 0px
+.sp-close-eye
+	background-position -76px 0px
+.sp-new
+	background-position -96px 0px
+.sp-upload
+	background-position -116px 0px
+
 
 //MINI FRAMEWORK TABLES
 .ancho-10
@@ -84,8 +116,7 @@ h4
 		color $blue-bcp
 		font-size 12px
 		font-weight bold
-		&:hover
-			text-decoration none
+		text-decoration none
 
 //clases generales
 .icon-orange
